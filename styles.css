@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media(max-width:1500px){
+    img{
+        width: 100%;
+    }
+    nav, main, footer{
+        padding: 3%;
+        width: 100%;
+    }
+    main{
+        background-color: aqua;
+        padding-bottom: 30%;
+    }
+    footer{
+        background-color: fuchsia;
+    }
+    nav{
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoNavi{
+        width: 25%;
+    }
+    #barNavi, #loginNavi{
+        width: 35%;
+        background-color: aliceblue;
+    }
+    #heroSection{
+        padding-top: 5%;
+        margin-top: 5%;
+        background-color: beige;
+    }
+}
+@media(max-width:450px){
+    img{
+        width: 100%;
+    }
+    nav, main, footer{
+        padding: 3%;
+        width: 100%;
+    }
+    main{
+        background-color: aqua;
+        padding-bottom: 30%;
+    }
+    footer{
+        background-color: fuchsia;
+    }
+    nav{
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoNavi{
+        width: 30%;
+    }
+    #barNavi, #loginNavi{
+        width: 35%;
+    }
+    #heroSection{
+        padding-top: 10%;
+        margin-top: 5%;
+        background-color: beige;
+    }
+    #topHeroSection{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgTop{
+        width: 100%;
+        -webkit-border-radius: 0.8;
+        -moz-border-radius: 0.8;
+        border-radius: 0.8rem;
+    }
+    #mainTextHero{
+        background-color: darkcyan;
+        text-align: center;
+        margin-top: 3%;
+    }
+    #pTextHero{
+        padding: 0 3%;
+        line-height: 1.5;
+    }
+    #btnTextHero{
+        background-color: lavender;
+        margin-top: 6%;
+    }
+    .btnColor, .btnColorless{
+        background-color: aqua;
+        margin: 0 1.5rem;
+        padding: 0.5% 5%;
+    }
+    #bottomHeroSection{
+        background-color: yellowgreen;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10% 0;
+    }
+    .cardBottomHS{
+        background-color: red;
+        width: 25%;
+    }
+    .tittleIcon, .textIcon{
+        display: none;
+    }
+    #bodySection{
+        background-color: rebeccapurple;
+        margin-top: 10%;
+    }
+    #topBodySection, #titleBottomBS{
+        background-color: violet;
+        text-align: center;
+        padding: 10%;
+    }
+    #middleBodySection{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .cardMiddleBS{
+        background-color: rebeccapurple;
+        margin: 5% 0;
+        padding: 3%;
+        width: 75%;
+        -webkit-border-radius: 0.8;
+        -moz-border-radius: 0.8;
+        border-radius: 0.8rem;
+    }
+    .textCardBS{
+        background-color: aliceblue;
+    }
+    .pCardBS{
+        background-color: aqua;
+        line-height: 1.5;
+        padding: 0 10% 5% 5%;
+    }
+    .textBTN{
+        background-color: saddlebrown;
+    }
+    .cardBottomBS{
+        background-color: red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sheetTestimonials{
+        background-color: aliceblue;
+        text-align: center;
+        width: 75%;
+        margin: 5%;
+    }
+    .imgSTest{
+        background-color: gold;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+    .profile{
+        width: 35%;
+    }
+    .nameProfile{
+        margin-left: 5%;
+    }
+    .pSheetTest{
+        text-align: left;
+        margin-top: 5%;
+    }
+    .sheetPricing{
+        background-color: wheat;
+        margin: 5% 0;
+        padding: 5%;
+        width: 75%;
+        -webkit-border-radius: 0.8;
+        -moz-border-radius: 0.8;
+        border-radius: 0.8rem;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .tPrice{
+        font-size: small;
+    }
+    .pricingBTN{
+        background-color: white;
+        margin-top: 10%;
+    }
+    .pBTN{
+        display: block;
+        width: fit-content;
+        padding: 0.5% 6%;
+    }
+    .btnRegist{
+        background-color: blueviolet;
+    }
+    footer{
+        padding-top: 15%;
+    }
+    #logofooter{
+        width: 35%;
+        margin-top: 5%;
+    }
+    #minifooter{
+        background-color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .cardfooter{
+        width: 100%;
+        background-color: saddlebrown;
+    }
+    #table{
+        width: 100%;
+    }
+    table{
+        width: 90%;
+    }
+    td{
+        line-height: 1.8;
+        vertical-align: top;
+        padding-bottom: 5%;
+    }
+    .td1{
+        width: 10%;
+    }
+    .icon{
+        width: 50%;
+    }
+    #cardlink{
+        margin-top: 10%;
+        background-color: tomato;
+    }
+    .flink{
+        margin: 1% 0;
+        display: block;
+    }
+    .ficon{
+        margin-top: 3%;
+        text-align: center;
+    }
+}

@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
     <title>Document</title>
 </head>
 <body>
     <nav>
-        <img id="logo-navi" src="images/gajihub-logo.svg" alt="logo-gajihub">
+        <img id="logoNavi" src="images/gajihub-logo.svg" alt="logo-gajihub">
         <div id="barNavi">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Product</a>
         </div>
-        <div id="login-navi">
+        <div id="loginNavi">
             <a href="#">Sign Up</a>
             <a href="#">Login</a>
         </div>
@@ -22,13 +24,13 @@
     <main>
         <div id="heroSection">
             <div id="topHeroSection">
-                <img src="images/gajihub-screenshot-payroll.jpg" alt="gajihub-screenshot-payroll">
+                <img id="imgTop" src="images/gajihub-screenshot-payroll.jpg" alt="gajihub-screenshot-payroll">
                 <div id="mainTextHero">
                     <h1>Lorem Ipsum</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p id="pTextHero">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <div id="btnTextHero">
-                        <a href="#">Register Now</a>
-                        <a href="#">Learn More &#8594</a>
+                        <a class="btnColor" href="#">Register Now</a>
+                        <a class="btnColorless" href="#">Learn More &#8594</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +68,7 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
@@ -76,7 +78,7 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
@@ -86,7 +88,7 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
@@ -96,7 +98,7 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
@@ -106,7 +108,7 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
@@ -116,7 +118,7 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
@@ -126,58 +128,67 @@
                     </div>
                     <div class="textCardBS">
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="pCardBS">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a class="textBTN" href="#">Learn More</a>
                     </div>
                 </div>
             </div>
             <div id="bottomBodySection">
+                <div id="titleBottomBS">
+                    <h2>Lorem Ipsum</h2>
+                </div>
                 <div class="cardBottomBS">
                     <div class="sheetTestimonials">
-                        <img src="#" alt="image">
-                        <h4>Lorem Ipsum</h4>
-                        <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores labore, officia temporibus aut, molestias magni laborum quae veniam totam corporis possimus placeat tempore eaque tempora earum laudantium recusandae quibusdam.&quot;</p>
+                        <div class="imgSTest">
+                            <img class="profile" src="#" alt="image">
+                            <h4 class="nameProfile">Lorem Ipsum</h4>
+                        </div>
+                        <p class="pSheetTest">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores labore, officia temporibus aut, molestias magni laborum quae veniam totam corporis possimus placeat tempore eaque tempora earum laudantium recusandae quibusdam.&quot;</p>
                     </div>
                     <div class="sheetTestimonials">
-                        <img src="#" alt="image">
-                        <h4>Lorem Ipsum</h4>
-                        <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores labore, officia temporibus aut, molestias magni laborum quae veniam totam corporis possimus placeat tempore eaque tempora earum laudantium recusandae quibusdam.&quot;</p>
+                        <div class="imgSTest">
+                            <img class="profile" src="#" alt="image">
+                            <h4 class="nameProfile">Lorem Ipsum</h4>
+                        </div>
+                        <p class="pSheetTest">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores labore, officia temporibus aut, molestias magni laborum quae veniam totam corporis possimus placeat tempore eaque tempora earum laudantium recusandae quibusdam.&quot;</p>
                     </div>
                     <div class="sheetTestimonials">
-                        <img src="#" alt="image">
-                        <h4>Lorem Ipsum</h4>
-                        <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores labore, officia temporibus aut, molestias magni laborum quae veniam totam corporis possimus placeat tempore eaque tempora earum laudantium recusandae quibusdam.&quot;</p>
+                        <div class="imgSTest">
+                            <img class="profile" src="#" alt="image">
+                            <h4 class="nameProfile">Lorem Ipsum</h4>
+                        </div>
+                        <p class="pSheetTest">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores labore, officia temporibus aut, molestias magni laborum quae veniam totam corporis possimus placeat tempore eaque tempora earum laudantium recusandae quibusdam.&quot;</p>
                     </div>
                 </div>
                 <div class="cardBottomBS">
                     <div class="sheetPricing">
                         <h5>Gratis</h5>
-                        <span>Harga</span>
-                        <span>&#47;Waktu</span>
+                        <span class="price">Harga</span>
+                        <span class="tPrice">&#47;Waktu</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, neque! Corrupti, omnis molestias. Vero officia hic sunt omnis. Maiores molestiae exercitationem odio vel sed sint sunt dicta quae natus? Aliquid.</p>
                         <div class="pricingBTN">
-                            <a href="#">Daftar Sekarang</a>
-                            <a href="#">Learn More &#8594</a>
+                            <a class="pBTN btnRegist" href="#">Daftar Sekarang</a>
+                            <a class="pBTN btnLearn" href="#">Learn More &#8594</a>
                         </div>
                     </div>
                     <div class="sheetPricing">
                         <h5>Gratis</h5>
-                        <span>Harga</span>
-                        <span>&#47;Waktu</span>
+                        <span class="price">Harga</span>
+                        <span class="tPrice">&#47;Waktu</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, neque! Corrupti, omnis molestias. Vero officia hic sunt omnis. Maiores molestiae exercitationem odio vel sed sint sunt dicta quae natus? Aliquid.</p>
                         <div class="pricingBTN">
-                            <a href="#">Daftar Sekarang</a>
-                            <a href="#">Learn More &#8594</a>
+                            <a class="pBTN btnRegist" href="#">Daftar Sekarang</a>
+                            <a class="pBTN btnLearn" href="#">Learn More &#8594</a>
                         </div>
                     </div>
                     <div class="sheetPricing">
                         <h5>Gratis</h5>
-                        <span>Harga</span>
-                        <span>&#47;Waktu</span>
+                        <span class="price">Harga</span>
+                        <span class="tPrice">&#47;Waktu</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, neque! Corrupti, omnis molestias. Vero officia hic sunt omnis. Maiores molestiae exercitationem odio vel sed sint sunt dicta quae natus? Aliquid.</p>
                         <div class="pricingBTN">
-                            <a href="#">Daftar Sekarang</a>
-                            <a href="#">Learn More &#8594</a>
+                            <a class="pBTN btnRegist" href="#">Daftar Sekarang</a>
+                            <a class="pBTN btnLearn" href="#">Learn More &#8594</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +196,7 @@
         </div>
     </main>
     <footer>
-        <img id="logofooter" src="images/logo.svg" alt="picture-logo">
+        <img id="logofooter" src="images/gajihub-logo.svg" alt="picture-logo">
         <div id="minifooter">
             <div id="table" class="cardfooter">
                 <table>
