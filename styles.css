@@ -2,43 +2,295 @@
     padding: 0;
     margin: 0;
 }
-@media(max-width:1500px){
+body{
+    background-color: #FFFF;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+h1, h2, h3, h4{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(210, 10%, 33%);
+}
+a{
+    text-decoration: none;
+    color: hsl(208, 11%, 55%);
+}
+.btnColor, .btnRegist{
+    color: #FFFF;
+    background-color: #FF8787;
+    -webkit-border-radius: 0.8;
+    -moz-border-radius: 0.8;
+    border-radius: 0.8rem;
+}
+footer{
+    background-color: #FF8787;
+    color: #FFFF;
+}
+.table, .flink{
+    color: #FFFF;
+}
+.cardMiddleBS{
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.01rem 0.4rem hsl(322, 41%, 76%);
+    -moz-box-shadow: 0 0.01rem 0.4rem hsl(322, 41%, 76%);
+    box-shadow: 0 0.01rem 0.4rem hsl(322, 41%, 76%);
+}
+.leftright{
+    -webkit-box-shadow: 0 0.01rem 0.4rem hsl(322, 41%, 76%);
+    -moz-box-shadow: 0 0.01rem 0.4rem hsl(322, 41%, 76%);
+    box-shadow: 0 0.01rem 0.4rem hsl(322, 41%, 76%);
+}
+.middle{
+    background-color: #FF8787;
+    color: #FFFF;
+}
+.btnMiddle{
+    background-color: #FFFF;
+    color: hsl(208, 11%, 55%);;
+}
+.sheetPricing{
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    border-radius: 1rem;
+    margin: 2%;
+}
+.link-media{
+    width: 2rem;
+}
+@media(max-width:1500px) and (min-width: 450px){
+    body{
+        background-image: url(./images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: #FFFF;
+    }
     img{
         width: 100%;
     }
     nav, main, footer{
-        padding: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
         width: 100%;
-    }
-    main{
-        background-color: aqua;
-        padding-bottom: 30%;
-    }
-    footer{
-        background-color: fuchsia;
     }
     nav{
         width: 100%;
-        background-color: blue;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #logoNavi{
+        width: 10%;
+    }
+    #barNavi, #loginNavi{
+        width: 35%;
+        text-align: right;
+    }
+    .bar{
+        padding-left: 5%;
+    }
+    .btnTop{
+        padding: 0.5% 5%;
+    }
+    #heroSection{
+        padding-top: 5%;
+    }
+    main{
+        padding-bottom: 30%;
+    }
+    #heroSection{
+        width: 100%;
+    }
+    #topHeroSection{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgTop{
+        width: 50%;
+        -webkit-border-radius: 0.8;
+        -moz-border-radius: 0.8;
+        border-radius: 0.8rem;
+    }
+    #mainTextHero{
+        width: 50%;
+        padding-right: 8%;
+    }
+    #pTextHero{
+        line-height: 1.5;
+        padding-top: 5%;
+        padding-right: 15%;
+    }
+    #btnTextHero{
+        margin-top: 10%;
+    }
+    .btnColor, .btnColorless{
+        padding: 1% 5%;
+    }
+    .btnColorless{
+        margin-right: 10%;
+    }
+    footer{
+    }
+    #bottomHeroSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .cardBottomHS{
+        width: 25%;
+        padding: 0 2% 2% 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: flex-start;
+    }
+    .iconHS{
+        width: 25%;
+        padding-right: 10%;
+    }
+    .textIcon{
+        line-height: 1.5;
+        width: 92%;
+    }
+    #bodySection{
+        margin-top: 15%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #topBodySection, #titleBottomBS{
+        font-size: larger;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    #middleBodySection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    #logoNavi{
-        width: 25%;
+    .left{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
-    #barNavi, #loginNavi{
+    .cardMiddleBS{
+        width: 95%;
+        margin: 2% 0;
+    }
+    .imgCardBS, .textCardBS{
+        width: 46.5%;
+    }
+    .cardBottomBS{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .sheetPricing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
         width: 35%;
-        background-color: aliceblue;
+        padding: 3%;
     }
-    #heroSection{
-        padding-top: 5%;
+    #titleBottomBS{
+        margin-top: 10%;
+    }
+    .pricingBTN{
         margin-top: 5%;
-        background-color: beige;
+    }
+    .price{
+        display: block;
+        font-size: 180%;
+        font-weight: bold;
+    }
+    .pPrice{
+        padding-top: 10%;
+    }
+    .pBTN{
+        padding: 1% 5%;
+    }
+    .btnRegist{
+        -webkit-border-radius: 0.5;
+        -moz-border-radius: 0.5;
+        border-radius: 0.5rem;
+    }
+    footer{
+        padding-top: 10%;
+    }
+    #logofooter{
+        width: 20%;
+    }
+    #minifooter{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .cardfooter{
+        width: 20%;
+        margin-top: 2%;
+    }
+    #table{
+        width: 40%;
+    }
+    table{
+        width: 70%;
+    }
+    td{
+        vertical-align: top;
+        line-height: 1.5;
+        padding-bottom: 5%;
+    }
+    .td1{
+        width: 10%;
+    }
+    .icon{
+        width: 50%;
+        vertical-align: top;
+    }
+    .flink{
+        padding-bottom: 6%;
+        display: block;
+    }
+    .link-media{
+        padding-right: 2%;
+    }
+    #copyright{
+        padding-top: 5%;
+        text-align: right;
     }
 }
 @media(max-width:450px){
+    body{
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+    }
     img{
         width: 100%;
     }
@@ -47,16 +299,13 @@
         width: 100%;
     }
     main{
-        background-color: aqua;
         padding-bottom: 30%;
     }
     footer{
-        background-color: fuchsia;
     }
     nav{
-        background-color: blue;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -66,13 +315,17 @@
     #barNavi, #loginNavi{
         width: 35%;
     }
+    #barNavi{
+        display: none;
+    }
+    #loginNavi{
+        margin-right: auto
+    }
     #heroSection{
         padding-top: 10%;
         margin-top: 5%;
-        background-color: beige;
     }
     #topHeroSection{
-        background-color: red;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -85,7 +338,6 @@
         border-radius: 0.8rem;
     }
     #mainTextHero{
-        background-color: darkcyan;
         text-align: center;
         margin-top: 3%;
     }
@@ -94,16 +346,13 @@
         line-height: 1.5;
     }
     #btnTextHero{
-        background-color: lavender;
         margin-top: 6%;
     }
     .btnColor, .btnColorless{
-        background-color: aqua;
         margin: 0 1.5rem;
         padding: 0.5% 5%;
     }
     #bottomHeroSection{
-        background-color: yellowgreen;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -112,23 +361,19 @@
         padding: 10% 0;
     }
     .cardBottomHS{
-        background-color: red;
         width: 25%;
     }
     .tittleIcon, .textIcon{
         display: none;
     }
     #bodySection{
-        background-color: rebeccapurple;
         margin-top: 10%;
     }
     #topBodySection, #titleBottomBS{
-        background-color: violet;
         text-align: center;
         padding: 10%;
     }
     #middleBodySection{
-        background-color: aquamarine;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -137,7 +382,6 @@
         width: 100%;
     }
     .cardMiddleBS{
-        background-color: rebeccapurple;
         margin: 5% 0;
         padding: 3%;
         width: 75%;
@@ -146,18 +390,14 @@
         border-radius: 0.8rem;
     }
     .textCardBS{
-        background-color: aliceblue;
     }
     .pCardBS{
-        background-color: aqua;
         line-height: 1.5;
         padding: 0 10% 5% 5%;
     }
     .textBTN{
-        background-color: saddlebrown;
     }
     .cardBottomBS{
-        background-color: red;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -165,13 +405,11 @@
         align-items: center;
     }
     .sheetTestimonials{
-        background-color: aliceblue;
         text-align: center;
         width: 75%;
         margin: 5%;
     }
     .imgSTest{
-        background-color: gold;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -189,7 +427,6 @@
         margin-top: 5%;
     }
     .sheetPricing{
-        background-color: wheat;
         margin: 5% 0;
         padding: 5%;
         width: 75%;
@@ -204,7 +441,6 @@
         font-size: small;
     }
     .pricingBTN{
-        background-color: white;
         margin-top: 10%;
     }
     .pBTN{
@@ -213,7 +449,6 @@
         padding: 0.5% 6%;
     }
     .btnRegist{
-        background-color: blueviolet;
     }
     footer{
         padding-top: 15%;
@@ -223,14 +458,12 @@
         margin-top: 5%;
     }
     #minifooter{
-        background-color: blanchedalmond;
         display: flex;
         flex-direction: column;
         justify-content: left;
     }
     .cardfooter{
         width: 100%;
-        background-color: saddlebrown;
     }
     #table{
         width: 100%;
@@ -251,7 +484,6 @@
     }
     #cardlink{
         margin-top: 10%;
-        background-color: tomato;
     }
     .flink{
         margin: 1% 0;
